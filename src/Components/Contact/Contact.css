@@ -1,0 +1,22 @@
+.table {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  gap: 20px;
+}
+.table h2{
+  color: rgba(244, 11, 162, 0.94);
+}
+.send {
+  background-color: rgba(244, 11, 162, 0.94);
+  color: white;
+  height: 50px;
+  width: 80px;
+  margin-left: 200px;
+  border-radius: 20px;
+}
+.galaxy img {
+  
+  height: 100%;
+  width: 100%;
+}

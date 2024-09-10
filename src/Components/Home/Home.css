@@ -1,0 +1,81 @@
+.homedetail {
+  width: 100vw !important;
+  margin: auto;
+  margin-left: 30px;
+}
+.solar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgba(244, 11, 162, 0.94);
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(244, 11, 162, 0.94);
+}
+p {
+  font-size: 17px;
+}
+.learnmore {
+  padding: 5px 10px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: rgba(244, 11, 162, 0.94);
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.learnmore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.learnmore:hover {
+  color: #e8e8e8;
+}
+
+.learnmore:hover::before {
+  width: 100%;
+}
+.home .earthmodel {
+  /* flex: 4; */
+  /* padding-right: 100px; */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home .homedetail {
+  flex: 2;
+  padding: 20px;
+}
